@@ -1,0 +1,24 @@
+public class main { 
+	
+    public static void main(String[] args) {
+    	
+    	int urunlerToplami,urun1=9,urun2=21,urun3=45;
+    	
+    	urunlerToplami=urun1+urun2+urun3;
+    	
+    	if(urunlerToplami>=100) {
+    		
+    		System.out.println("Toplam Ödenecek Ücret="+urunlerToplami);
+    	}
+    	
+    	else {
+    		System.out.println("Ürünlerin Toplam Fiyatı"+urunlerToplami);
+    		System.out.println("Kargo Ücreti="+10);
+    		System.out.println("Toplam Ödenecek Ücret="+(urunlerToplami+10));
+    	}
+ 
+    }
+    
+}
+
+
